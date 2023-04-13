@@ -36,12 +36,16 @@ npm run lint
 
 ### test
 
-https://kuaippt.cn/u/35579129/70165589
+<!-- https://kuaippt.cn/u/35579129/70165589 -->
 
 [vant4.x](https://vant-contrib.gitee.io/vant/#/zh-CN/home)
+
 [vue-konva](https://github.com/konvajs/vue-konva)
+
 [konva 中文](http://konvajs-doc.bluehymn.com/)
 
 [animate](https://animate.style/)
+
 [swiper-animation](https://github.com/cycjimmy/swiper-animation)
+
 [swiper](https://swiperjs.com/)
