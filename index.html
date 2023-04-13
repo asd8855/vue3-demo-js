@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    var sizeUI = 750 // 定义设计图尺寸
+    var remBase = 75 // 定义基准值
+    var docEl = document.documentElement // 获取html元素
+    setRemUnit() // 执行函数
+    function setRemUnit() {
+      var docFontSize = docEl.clientWidth / sizeUI * remBase // 计算得到根字体大小
+      docEl.style.fontSize = docFontSize + 'px' // 设置根字体大小
+    }
+  </script>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

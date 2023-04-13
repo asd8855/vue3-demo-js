@@ -1,0 +1,37 @@
+{
+  "name": "demo-js",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@cycjimmy/swiper-animation": "^6.0.2",
+    "amfe-flexible": "^2.2.1",
+    "animate.css": "^4.1.1",
+    "konva": "^8.4.3",
+    "pinia": "^2.0.32",
+    "sass": "^1.61.0",
+    "swiper": "^9.2.0",
+    "vant": "^4.1.2",
+    "vue": "^3.2.47",
+    "vue-konva": "^3.0.2",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "eslint": "^8.34.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "postcss": "^8.4.21",
+    "postcss-pxtorem": "^6.0.0",
+    "prettier": "^2.8.4",
+    "unplugin-vue-components": "^0.24.1",
+    "vite": "^4.1.4"
+  }
+}
